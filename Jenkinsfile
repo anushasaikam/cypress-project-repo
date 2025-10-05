@@ -1,8 +1,6 @@
 pipeline {
   agent {
     docker {
-      // pick a current cypress/included image; pin a version for reproducibility
-      // find images at https://hub.docker.com/r/cypress/included/tags
       image 'cypress/included:13.5.0'
       args '-u root:root' // allow writing artifacts
     }
