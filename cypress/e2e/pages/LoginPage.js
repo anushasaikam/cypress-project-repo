@@ -12,5 +12,6 @@ export class LoginPage {
     this.password().clear().type(pass, { log: false });
     this.loginBtn();
     console.log("Typing password");
+    console.log("Attempting to log in");
   }
 }
