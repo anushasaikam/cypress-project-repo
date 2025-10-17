@@ -11,6 +11,7 @@ export class LoginPage {
     this.username().clear().type(user);
     console.log("Typing password");
     this.password().clear().type(pass, { log: false });
-    this.loginBtn().click();
+    this.loginBtn();
+    console.log("Clicked login button");
   }
 }
