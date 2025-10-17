@@ -1,0 +1,42 @@
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Cypress outputs and reports (keep artifacts out of VCS)
+cypress/videos/
+cypress/screenshots/
+reports/
+reports/**
+
+# local env / secrets
+.env
+.env.local
+cypress.env.json
+# Ignore support folder (only if it contains machine-specific or secret files)
+cypress/support/
+.npmrc
+
+# build / coverage
+dist/
+coverage/
+
+# additional common local / cache files
+.env.*                       # catch .env.test, .env.staging, etc.
+.cache/
+.parcel-cache/
+.eslintcache
+.nyc_output/
+.serverless/
+.turbo/
+.next/
+out/
+build/
+yarn.lock
+*.log
