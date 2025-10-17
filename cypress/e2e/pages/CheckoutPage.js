@@ -9,6 +9,7 @@ export class CheckoutPage {
 
   fillYourInfo(first, last, zip) {
     this.firstName().type(first);
+    console.log("Typing first name");
     this.lastName().type(last);
     this.postalCode().type(zip);
     this.continueBtn().click();
