@@ -10,6 +10,6 @@ export class LoginPage {
   loginAs(user, pass) {
     this.username().clear().type(user);
     this.password().clear().type(pass, { log: false });
-    this.loginBtn();
+    this.loginBtn().click();
   }
 }
